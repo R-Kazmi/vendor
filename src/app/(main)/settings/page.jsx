@@ -6,7 +6,7 @@ import {
   useProfileUpdateMutation,
 } from "@/redux/services/authApi";
 import { useEffect, useState } from "react";
-import { notifyError, notifySuccess } from "@/components/Utilis/toast";
+import { notifyError, notifySuccess } from "@/components/Notification";
 
 const Settings = () => {
   const { data } = useGetCurrentUserQuery();
